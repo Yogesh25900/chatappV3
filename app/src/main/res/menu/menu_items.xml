@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action"
+        android:icon="@drawable/baseline_add_24"
+        android:title="Menu"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/newGroup"
+                android:icon="@drawable/group_chat_icon"
+                android:iconTint="@color/green"
+                android:title="New Group"/>
+
+            <item
+                android:id="@+id/newChat"
+                android:icon="@drawable/chat_add_icon"
+                android:iconTint="@color/green"
+                android:title="New Chat"/>
+
+            <item
+                android:id="@+id/joinGroup"
+                android:icon="@drawable/chat_add_icon"
+                android:iconTint="@color/green"
+                android:title="Join Group"/>
+        </menu>
+    </item>
+</menu>
